@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/macbook/Desktop/UnitTestingActivitiesCSharp/Atividade15/Atividade15.csproj": {}
+    "/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade15/Atividade15.csproj": {}
   },
   "projects": {
-    "/Users/macbook/Desktop/UnitTestingActivitiesCSharp/Atividade15/Atividade15.csproj": {
+    "/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade15/Atividade15.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/macbook/Desktop/UnitTestingActivitiesCSharp/Atividade15/Atividade15.csproj",
+        "projectUniqueName": "/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade15/Atividade15.csproj",
         "projectName": "Atividade15",
-        "projectPath": "/Users/macbook/Desktop/UnitTestingActivitiesCSharp/Atividade15/Atividade15.csproj",
+        "projectPath": "/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade15/Atividade15.csproj",
         "packagesPath": "/Users/macbook/.nuget/packages/",
-        "outputPath": "/Users/macbook/Desktop/UnitTestingActivitiesCSharp/Atividade15/obj/",
+        "outputPath": "/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade15/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/macbook/.nuget/NuGet/NuGet.Config"

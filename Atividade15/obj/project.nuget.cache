@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PYguxFYacFk=",
+  "dgSpecHash": "gkjOiiHJcLo=",
   "success": true,
-  "projectFilePath": "/Users/macbook/Desktop/UnitTestingActivitiesCSharp/Atividade15/Atividade15.csproj",
+  "projectFilePath": "/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade15/Atividade15.csproj",
   "expectedPackageFiles": [
     "/Users/macbook/.nuget/packages/awssdk.core/3.7.304.6/awssdk.core.3.7.304.6.nupkg.sha512",
     "/Users/macbook/.nuget/packages/awssdk.rekognition/3.7.302.23/awssdk.rekognition.3.7.302.23.nupkg.sha512",
