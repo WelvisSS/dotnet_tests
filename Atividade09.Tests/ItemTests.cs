@@ -1,40 +1,73 @@
-﻿using Xunit;
-namespace Atividade09.Tests
+namespace Atividade09.Tests;
+
+public class ItemTests
 {
-    public class ItemTests
+    [Fact]
+    public void AddItem_WithValidItem_AddsItem()
     {
-        [Fact]
-        public void Item_Should_Set_Name_Correctly()
-        {
-            // Arrange
-            var expectedName = "Sample Item";
+        //Arrange
+        var collection = new ItemCollection();
+        var item = new Item("Item 1");
 
-            // Act
-            var item = new Item(expectedName);
+        //Act
+        collection.AddItem(item);
 
-            // Assert
-            Assert.Equal(expectedName, item.Name);
-        }
+        //Assert
+        var items = collection.GetItems();
+        Assert.Contains(item, items);
+    }
+    [Fact]
+    public void AddItem_NullItem_AddsItem()
+    {
+        //Arrange
+        var collection = new ItemCollection();
 
-        [Fact]
-        public void Item_Name_Should_Be_Null_If_Empty_String()
-        {
-            // Arrange
-            var expectedName = string.Empty;
+        //Act & Assert
+        Assert.Throws<ArgumentException>(() => collection.AddItem(null!));
 
-            // Act
-            var item = new Item(expectedName);
-
-            // Assert
-            Assert.Equal(expectedName, item.Name);
-        }
-
-        [Fact]
-        public void Item_Name_Should_Throw_Exception_If_Null()
-        {
-            // Arrange & Act & Assert
-            Assert.Throws<ArgumentNullException>(() => new Item(null));
-        }
     }
 
+    [Fact]
+    public void RemoveItem_WithValidItem_RemovesItem()
+    {
+        //Arrange
+        var collection = new ItemCollection();
+        var item1 = new Item("Item 1");
+        collection.AddItem(item1);
+
+        //Act
+        collection.RemoveItem(item1);
+
+        //Assert
+        var items = collection.GetItems();
+        Assert.DoesNotContain(item1, items);
+    }
+
+    [Fact]
+    public void RemoveItem_NullItem_ThrowsException()
+    {
+        //Arrange
+        var collection = new ItemCollection();
+
+        //Act & Assert
+        Assert.Throws<ArgumentException>(() => collection.AddItem(null!));
+    }
+
+    [Fact]
+    public void GetItems_NotEmpty_ReturnsItems()
+    {
+        //Arrange
+        var collection = new ItemCollection();
+        var item1 = new Item("Item 1");
+        var item2 = new Item("Item 2");
+        collection.AddItem(item1);
+        collection.AddItem(item2);
+
+        //Act
+        var items = collection.GetItems();
+
+        //Assert
+        Assert.Contains(item1, items);
+        Assert.Contains(item2, items);
+    }
 }
