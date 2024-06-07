@@ -18,6 +18,22 @@
           }
         }
       },
+      "Moq/4.20.70": {
+        "type": "package",
+        "dependencies": {
+          "Castle.Core": "5.1.1"
+        },
+        "compile": {
+          "lib/net6.0/Moq.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Moq.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "NSubstitute/5.1.0": {
         "type": "package",
         "dependencies": {
@@ -87,6 +103,27 @@
         "readme.txt"
       ]
     },
+    "Moq/4.20.70": {
+      "sha512": "4rNnAwdpXJBuxqrOCzCyICXHSImOTRktCgCWXWykuF1qwoIsVvEnR7PjbMk/eLOxWvhmj5Kwt+kDV3RGUYcNwg==",
+      "type": "package",
+      "path": "moq/4.20.70",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net462/Moq.dll",
+        "lib/net462/Moq.xml",
+        "lib/net6.0/Moq.dll",
+        "lib/net6.0/Moq.xml",
+        "lib/netstandard2.0/Moq.dll",
+        "lib/netstandard2.0/Moq.xml",
+        "lib/netstandard2.1/Moq.dll",
+        "lib/netstandard2.1/Moq.xml",
+        "moq.4.20.70.nupkg.sha512",
+        "moq.nuspec",
+        "readme.md"
+      ]
+    },
     "NSubstitute/5.1.0": {
       "sha512": "ZCqOP3Kpp2ea7QcLyjMU4wzE+0wmrMN35PQMsdPOHYc2IrvjmusG9hICOiqiOTPKN0gJon6wyCn6ZuGHdNs9hQ==",
       "type": "package",
@@ -139,6 +176,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Moq >= 4.20.70",
       "NSubstitute >= 5.1.0"
     ]
   },
@@ -184,6 +222,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Moq": {
+            "target": "Package",
+            "version": "[4.20.70, )"
+          },
           "NSubstitute": {
             "target": "Package",
             "version": "[5.1.0, )"
