@@ -1,0 +1,13 @@
+/Users/macbook/Documents/Residencia/UnitTestingActivitiesCSharp/Atividade06/bin/Debug/net7.0/Atividade06.deps.json
+/Users/macbook/Documents/Residencia/UnitTestingActivitiesCSharp/Atividade06/bin/Debug/net7.0/Atividade06.dll
+/Users/macbook/Documents/Residencia/UnitTestingActivitiesCSharp/Atividade06/bin/Debug/net7.0/Atividade06.pdb
+/Users/macbook/Documents/Residencia/UnitTestingActivitiesCSharp/Atividade06/obj/Debug/net7.0/Atividade06.csproj.AssemblyReference.cache
+/Users/macbook/Documents/Residencia/UnitTestingActivitiesCSharp/Atividade06/obj/Debug/net7.0/Atividade06.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Documents/Residencia/UnitTestingActivitiesCSharp/Atividade06/obj/Debug/net7.0/Atividade06.AssemblyInfoInputs.cache
+/Users/macbook/Documents/Residencia/UnitTestingActivitiesCSharp/Atividade06/obj/Debug/net7.0/Atividade06.AssemblyInfo.cs
+/Users/macbook/Documents/Residencia/UnitTestingActivitiesCSharp/Atividade06/obj/Debug/net7.0/Atividade06.csproj.CoreCompileInputs.cache
+/Users/macbook/Documents/Residencia/UnitTestingActivitiesCSharp/Atividade06/obj/Debug/net7.0/Atividade06.dll
+/Users/macbook/Documents/Residencia/UnitTestingActivitiesCSharp/Atividade06/obj/Debug/net7.0/refint/Atividade06.dll
+/Users/macbook/Documents/Residencia/UnitTestingActivitiesCSharp/Atividade06/obj/Debug/net7.0/Atividade06.pdb
+/Users/macbook/Documents/Residencia/UnitTestingActivitiesCSharp/Atividade06/obj/Debug/net7.0/ref/Atividade06.dll
+/Users/macbook/Documents/Residencia/UnitTestingActivitiesCSharp/Atividade06/obj/Debug/net7.0/Atividade06.sourcelink.json

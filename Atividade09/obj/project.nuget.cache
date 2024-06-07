@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "eHXapF8Fz9Q=",
+  "success": true,
+  "projectFilePath": "/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade09/Atividade09.csproj",
+  "expectedPackageFiles": [
+    "/Users/macbook/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "/Users/macbook/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}

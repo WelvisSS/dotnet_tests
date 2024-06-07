@@ -1,0 +1,7 @@
+/Users/macbook/Documents/Residencia/UnitTestingActivitiesCSharp/Atividade07.Tests/bin/Debug/net7.0/CoverletSourceRootsMapping
+/Users/macbook/Documents/Residencia/UnitTestingActivitiesCSharp/Atividade07.Tests/obj/Debug/net7.0/Atividade07.Tests.csproj.AssemblyReference.cache
+/Users/macbook/Documents/Residencia/UnitTestingActivitiesCSharp/Atividade07.Tests/obj/Debug/net7.0/Atividade07.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Documents/Residencia/UnitTestingActivitiesCSharp/Atividade07.Tests/obj/Debug/net7.0/Atividade07.Tests.AssemblyInfoInputs.cache
+/Users/macbook/Documents/Residencia/UnitTestingActivitiesCSharp/Atividade07.Tests/obj/Debug/net7.0/Atividade07.Tests.AssemblyInfo.cs
+/Users/macbook/Documents/Residencia/UnitTestingActivitiesCSharp/Atividade07.Tests/obj/Debug/net7.0/Atividade07.Tests.csproj.CoreCompileInputs.cache
+/Users/macbook/Documents/Residencia/UnitTestingActivitiesCSharp/Atividade07.Tests/obj/Debug/net7.0/Atividade07.Tests.sourcelink.json
