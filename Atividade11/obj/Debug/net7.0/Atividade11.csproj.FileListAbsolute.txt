@@ -1,0 +1,12 @@
+/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade11/bin/Debug/net7.0/Atividade11.deps.json
+/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade11/bin/Debug/net7.0/Atividade11.dll
+/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade11/bin/Debug/net7.0/Atividade11.pdb
+/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade11/obj/Debug/net7.0/Atividade11.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade11/obj/Debug/net7.0/Atividade11.AssemblyInfoInputs.cache
+/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade11/obj/Debug/net7.0/Atividade11.AssemblyInfo.cs
+/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade11/obj/Debug/net7.0/Atividade11.csproj.CoreCompileInputs.cache
+/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade11/obj/Debug/net7.0/Atividade11.sourcelink.json
+/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade11/obj/Debug/net7.0/Atividade11.dll
+/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade11/obj/Debug/net7.0/refint/Atividade11.dll
+/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade11/obj/Debug/net7.0/Atividade11.pdb
+/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade11/obj/Debug/net7.0/ref/Atividade11.dll

@@ -1,4 +1,3 @@
-using NSubstitute;
 namespace Atividade15.Tests;
 
 public class UnitTest1

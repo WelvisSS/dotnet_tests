@@ -51,10 +51,6 @@
               "target": "Package",
               "version": "[17.8.0, )"
             },
-            "NSubstitute": {
-              "target": "Package",
-              "version": "[5.1.0, )"
-            },
             "coverlet.collector": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -150,10 +146,6 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
               "version": "[7.0.20, 7.0.20]"
             },
             {

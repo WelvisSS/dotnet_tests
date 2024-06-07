@@ -1,3 +1,4 @@
+using NSubstitute;
 
 namespace Atividade10.Tests;
 public class UserManagerTests

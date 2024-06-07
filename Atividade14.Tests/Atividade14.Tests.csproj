@@ -18,11 +18,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Using Include="Xunit" />
+    <ProjectReference Include="..\Atividade14\Atividade14.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Atividade14\Atividade14.csproj" />
+    <Using Include="Xunit" />
   </ItemGroup>
 
 </Project>

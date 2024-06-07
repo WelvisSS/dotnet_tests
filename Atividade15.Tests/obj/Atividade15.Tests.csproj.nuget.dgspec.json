@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade15.Tests/Atividade15.Tests.csproj": {}
+    "/Users/macbook/Desktop/UnitTestingActivitiesCSharp/Atividade15.Tests/Atividade15.Tests.csproj": {}
   },
   "projects": {
-    "/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade15.Tests/Atividade15.Tests.csproj": {
+    "/Users/macbook/Desktop/UnitTestingActivitiesCSharp/Atividade15.Tests/Atividade15.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade15.Tests/Atividade15.Tests.csproj",
+        "projectUniqueName": "/Users/macbook/Desktop/UnitTestingActivitiesCSharp/Atividade15.Tests/Atividade15.Tests.csproj",
         "projectName": "Atividade15.Tests",
-        "projectPath": "/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade15.Tests/Atividade15.Tests.csproj",
+        "projectPath": "/Users/macbook/Desktop/UnitTestingActivitiesCSharp/Atividade15.Tests/Atividade15.Tests.csproj",
         "packagesPath": "/Users/macbook/.nuget/packages/",
-        "outputPath": "/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade15.Tests/obj/",
+        "outputPath": "/Users/macbook/Desktop/UnitTestingActivitiesCSharp/Atividade15.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/macbook/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade15/Atividade15.csproj": {
-                "projectPath": "/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade15/Atividade15.csproj"
+              "/Users/macbook/Desktop/UnitTestingActivitiesCSharp/Atividade15/Atividade15.csproj": {
+                "projectPath": "/Users/macbook/Desktop/UnitTestingActivitiesCSharp/Atividade15/Atividade15.csproj"
               }
             }
           }
@@ -49,23 +49,23 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.8.0, )"
-            },
-            "NSubstitute": {
-              "target": "Package",
-              "version": "[5.1.0, )"
+              "version": "[17.3.2, )"
             },
             "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[3.1.2, )"
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.5.3, )"
+              "version": "[2.4.2, )"
             },
             "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.5.3, )"
+              "version": "[2.4.5, )"
             }
           },
           "imports": [
@@ -98,14 +98,14 @@
         }
       }
     },
-    "/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade15/Atividade15.csproj": {
+    "/Users/macbook/Desktop/UnitTestingActivitiesCSharp/Atividade15/Atividade15.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade15/Atividade15.csproj",
+        "projectUniqueName": "/Users/macbook/Desktop/UnitTestingActivitiesCSharp/Atividade15/Atividade15.csproj",
         "projectName": "Atividade15",
-        "projectPath": "/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade15/Atividade15.csproj",
+        "projectPath": "/Users/macbook/Desktop/UnitTestingActivitiesCSharp/Atividade15/Atividade15.csproj",
         "packagesPath": "/Users/macbook/.nuget/packages/",
-        "outputPath": "/Users/macbook/Documents/Residencia/dotnet_unit_tests/Atividade15/obj/",
+        "outputPath": "/Users/macbook/Desktop/UnitTestingActivitiesCSharp/Atividade15/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/macbook/.nuget/NuGet/NuGet.Config"
@@ -136,6 +136,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "AWSSDK.Rekognition": {
+              "target": "Package",
+              "version": "[3.7.302.23, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -150,10 +156,6 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
               "version": "[7.0.20, 7.0.20]"
             },
             {
